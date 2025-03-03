@@ -22,8 +22,8 @@ function guardarBorrador() {
         precio: document.getElementById('precio').value,
         margen: document.getElementById('margen').value,
         precioFinal: document.getElementById('precio-final').value,
-        imagen: document.getElementById('imagen-producto').src = 'https://source.unsplash.com/200x200/?product'
-
+        imagen: document.document.getElementById('imagen-producto').src = 'https://source.unsplash.com/200x200/?product';
+    
     };
     let borradores = JSON.parse(localStorage.getItem('borradores')) || [];
     borradores.push(producto);
